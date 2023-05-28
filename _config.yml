@@ -26,7 +26,7 @@ app:
   screenshot: # Leave blank to auto-magically populate
   # To update use path relative to project root with no leading slash:
    images/Screenshot 2023-05-29 at 01.33.52.png
-   640x1136px
+   64000x113600px
 
   #video: # uncomment if prefer to show a video preview in the screen instead of image
   # To update use path relative to project root with no leading slash:
@@ -44,7 +44,9 @@ app:
 # Marketing
 #
 marketing_header: ABOUT US # Optional
-marketing_desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+marketing_desc: We are a team of 5 senior students from computer engineering department and our application is a social platform designed for food enthusiasts and dining enthusiasts alike. With our app, you can easily share your memorable moments and experiences in restaurants with your friends and fellow foodies.
+
+
 
 #
 # Social Links
@@ -76,7 +78,7 @@ enable:
 # * iphone-se-space-gray-vertical
 # * ipod-touch-blue-vertical
 #
-device: iphone-se-silver-vertical # REQUIRED
+device: iphone-14-silver-vertical # REQUIRED
 
 #
 # Theme Settings
