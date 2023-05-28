@@ -8,7 +8,8 @@
 # General App Info
 #
 app:
-  name: BEEN # REQUIRED - Enter your app name
+  name: BEEN
+  READY TO DISCOVER ISTANBUL# REQUIRED - Enter your app name
   ios_id: 1234567890 # REQUIRED - 10 Digit Numeric App ID (lookup in iTunes Connect)
   android_id: # Optional - Enter Android app id like: com.example.app
 
