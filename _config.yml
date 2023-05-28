@@ -25,8 +25,8 @@ app:
 
   screenshot: # Leave blank to auto-magically populate
   # To update use path relative to project root with no leading slash:
-  # e.g. images/app-screen-640x1136.png
-  # 640x1136px
+   images/Screenshot 2023-05-29 at 01.33.52.png
+   640x1136px
 
   #video: # uncomment if prefer to show a video preview in the screen instead of image
   # To update use path relative to project root with no leading slash:
@@ -43,7 +43,7 @@ app:
 #
 # Marketing
 #
-marketing_header: Does Awesome Stuff # Optional
+marketing_header: ABOUT US # Optional
 marketing_desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 #
