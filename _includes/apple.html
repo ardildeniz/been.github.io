@@ -17,6 +17,10 @@
           if ( $appScreenshot && !$appScreenshot.attr('src') && appInfo.screenshotUrls && appInfo.screenshotUrls.length ) {
             $appScreenshot.attr('src', appInfo.screenshotUrls[0]);
           }
+          var $appScreenshot2 = $('.app-screenshot2');
+          if ( $appScreenshot2 && !$appScreenshot.attr('src') && appInfo.screenshotUrls && appInfo.screenshotUrls.length ) {
+            $appScreenshot2.attr('src', appInfo.screenshotUrls[0]);
+          }  
         } else {
           console.warn('Unable to load app info from Apple');
         }
