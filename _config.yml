@@ -78,7 +78,7 @@ enable:
 # * iphone-se-space-gray-vertical
 # * ipod-touch-blue-vertical
 #
-device: images/devices/apple-iphone-14-pro-max-2022-medium.png # REQUIRED
+device: images/devices/apple-iphone-14.jpg # REQUIRED
 
 #
 # Theme Settings
