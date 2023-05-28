@@ -25,7 +25,7 @@ app:
 
   screenshot: # Leave blank to auto-magically populate
   # To update use path relative to project root with no leading slash:
-   images/Screenshot 2023-05-29 at 01.33.52.png
+   images/ekran.jpg
    368x750px
 
   #video: # uncomment if prefer to show a video preview in the screen instead of image
