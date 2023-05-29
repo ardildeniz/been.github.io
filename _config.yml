@@ -1,12 +1,4 @@
-#
-# Awesome App Landing Page Config
-#
 
-# Be sure all REQUIRED fields are filled out!
-
-#
-# General App Info
-#
 app:
   name: BEEN
   # REQUIRED - Enter your app name
@@ -18,42 +10,20 @@ app:
   # e.g. images/app-icon-512.png
   # 512px or greater, square
 
-  #favicon: # uncomment if uploading own favicon
-  # To update use path relative to project root with no leading slash:
-  # e.g. images/app-favicon.png - can be .ico or .png
-  # 16px or greater, square
-
-  screenshot: 
-     - images/ekran.jpg
-     - images/map.jpg
+ 
+  screenshot: images/ekran.jpg
+     
   
    
 
-  #video: # uncomment if prefer to show a video preview in the screen instead of image
-  # To update use path relative to project root with no leading slash:
-  # e.g. images/app-preview.mp4
-  # 640x1136px
-
-  #app_twitter: # uncomment if the app has a twitter account "@my-awesome-app"
-  #creator_twitter: # uncomment if creator has a twitter account "@awesome-dev"
-  #social_image: # uncomment and add an image - defaults to icon
-  # This will show up when your url is shared on sites like facebook and twitter
-  # To update use path relative to project root with no leading slash:
-  # e.g. images/app-social_image.png
-  # 512px or greater, square or width = 2X height
-#
-# Marketing
+  
 #
 marketing_header: ABOUT US # Optional
 marketing_desc: We are a team of 5 senior students from computer engineering department and our application is a social platform designed for food enthusiasts and dining enthusiasts alike. With our app, you can easily share your memorable moments and experiences in restaurants with your friends and fellow foodies.
 
 
 
-#
-# Social Links
-#
-# Includes an icon for each username you enter
-#
+
 social-links:
   github:
   facebook:
@@ -64,21 +34,12 @@ social-links:
   youtube: # channel/<your_long_string> or <user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
 
-#
-# Enable/Disable Features & Page Elements
-#
+
 enable:
   app_icon: true
   smart_app_banner: true
 
-#
-# Device
-#
-# Available devices:
-# * iphone-se-silver-vertical
-# * iphone-se-space-gray-vertical
-# * ipod-touch-blue-vertical
-#
+
 device: images/devices/apple-iphone-14.jpg # REQUIRED
 
 #
