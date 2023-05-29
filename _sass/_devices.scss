@@ -78,9 +78,10 @@
   width: 246px;
 }
 device.new-device {
+  position: relative;
+  background-size: cover;
   width: 288px;
   height: 608px;
-  background-image: url(../../images/devices/new-device.png);
 }
 
 .device.new-device .app-screenshot {
