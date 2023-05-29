@@ -13,9 +13,17 @@
             $appIcon.attr('src', appInfo.artworkUrl512);
           }
           // App Screenshot
-          var $appScreenshot = $('.app-screenshot');
-          if ( $appScreenshot && !$appScreenshot.attr('src') && appInfo.screenshotUrls && appInfo.screenshotUrls.length ) {
-            $appScreenshot.attr('src', appInfo.screenshotUrls[0]);
+          //var $appScreenshot = $('.app-screenshot');
+          //if ( $appScreenshot && !$appScreenshot.attr('src') && appInfo.screenshotUrls && appInfo.screenshotUrls.length ) {
+            //$appScreenshot.attr('src', appInfo.screenshotUrls[0]);
+          //}
+          var $appScreenshots = $('.app-screenshot');
+          if ($appScreenshots.length > 0) {
+            for (var i = 0; i < appInfo.screenshotUrls.length; i++) {
+              if (!$appScreenshots[i].attr('src')) {
+                $appScreenshots[i].attr('src', appInfo.screenshotUrls[i]);
+              }
+            }
           }
         
         } else {
