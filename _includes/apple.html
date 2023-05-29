@@ -12,17 +12,12 @@
           if ( $appIcon && !$appIcon.attr('src') && appInfo.artworkUrl512 ) {
             $appIcon.attr('src', appInfo.artworkUrl512);
           }
-          // App Screenshot
-          //var $appScreenshot = $('.app-screenshot');
-          //if ( $appScreenshot && !$appScreenshot.attr('src') && appInfo.screenshotUrls && appInfo.screenshotUrls.length ) {
-            //$appScreenshot.attr('src', appInfo.screenshotUrls[0]);
-          //}
+           App Screenshot
           var $appScreenshot = $('.app-screenshot');
-          if ($appScreenshot && !$appScreenshot.attr('src') && appInfo.screenshotUrls && appInfo.screenshotUrls.length) {
+          if ( $appScreenshot && !$appScreenshot.attr('src') && appInfo.screenshotUrls && appInfo.screenshotUrls.length ) {
             $appScreenshot.attr('src', appInfo.screenshotUrls[0]);
-            // Add the following line for the second screenshot
-            $appScreenshot.after('<img src="' + appInfo.screenshotUrls[1] + '" alt="App Screenshot" class="app-screenshot">');
           }
+          
         
         } else {
           console.warn('Unable to load app info from Apple');
