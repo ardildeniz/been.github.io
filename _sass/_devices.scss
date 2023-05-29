@@ -77,3 +77,14 @@
   left: 23px;
   width: 246px;
 }
+device.new-device {
+  width: 288px;
+  height: 608px;
+  background-image: url(../../images/devices/new-device.png);
+}
+
+.device.new-device .app-screenshot {
+  top: 91px;
+  left: 271px; /* Adjust the left value to position the screenshot */
+  width: 240px; /* Adjust the width value if necessary */
+}
