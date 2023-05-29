@@ -23,7 +23,9 @@ app:
   # e.g. images/app-favicon.png - can be .ico or .png
   # 16px or greater, square
 
-  screenshot: images/ekran.jpg
+  screenshot: 
+     - images/ekran.jpg
+     - images/map.jpg
   
    
 
