@@ -77,15 +77,13 @@
   left: 23px;
   width: 246px;
 }
-device.new-device {
-  position: relative;
-  background-size: cover;
-  width: 288px;
-  height: 608px;
+.device.additional-device {
+  width: 300px;
+  height: 600px;
+  background-image: url(../../images/devices/iphone-se-silver-vertical.png);
 }
-
-.device.new-device .app-screenshot {
-  top: 91px;
-  left: 271px; /* Adjust the left value to position the screenshot */
-  width: 240px; /* Adjust the width value if necessary */
+.device.additional-device .app-screenshot {
+  top: 100px;
+  left: 30px;
+  width: 240px;
 }
